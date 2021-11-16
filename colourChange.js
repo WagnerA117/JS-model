@@ -1,3 +1,5 @@
+let numExc = document.getElementById("exampleID")
+
 function checkExc(){
 
     
