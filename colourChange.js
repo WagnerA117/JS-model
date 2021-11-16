@@ -1,8 +1,8 @@
-let numExc = document.getElementById("exampleID")
+const textArea = document.getElementById("exampleID");
 
-function checkExc(){
+const numExc = textArea.search(/[\!]/g);
 
-    
+function checkExc(numExc){
 
-    console.log("You've learned something")
+    console.log(numExc)
 }
